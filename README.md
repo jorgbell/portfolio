@@ -1,2 +1,2 @@
 # porfolio
-WIP 
+jorgbell.github.io/porfolio
