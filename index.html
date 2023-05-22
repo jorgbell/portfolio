@@ -114,10 +114,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
                     <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                    <p class="col align-items-center">this is Speedy, my little fella </p>
+
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Video game developer</h3>
-                    <p>Aqui mi descripcion</p>
+                    <p>Hi there! I'm Jorge, I was born in Tenerife and now I'm an Spanish game developer located in Madrid. Playing video games has always been my passion, and now that has transformed into loving making them. You can see more about my projects here, but also in my social media accounts. </p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Jorge Bello</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">04 February 2000</span></h6></div>
@@ -153,7 +155,7 @@
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">Grado en Desarrollo de Videojuegos</h5>
                             <p class="mb-2"><strong>Universidad Complutense de Madrid</strong> | <small>2018 - 2023</small></p>
-                            <p>Actualmente desarrollando trabajo final de grado.<br> Expectativa de finalización para Septiembre de 2023</p>
+                            <p>Currently developing final degree project.<br> Completion expectation for September 2023.</p>
                         </div>
                     </div>
                 <!--DESCOMENTAR ESTO CUANDO AÑADA MAS COLUMNAS</div>-->
@@ -402,12 +404,12 @@
                     </div>
                     <!--ITEM END-->
                     <!--ITEM START-->
-                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <!--<div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
                         <img src="img/diseno.png" alt="Imagen 1">
                         <div class="overlay">
                             <div class="overlay-text">DISEÑO</div>
                         </div>
-                    </div>
+                    </div>-->
                     <!--ITEM END-->
                     <!--ITEM START-->
                     <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
@@ -470,6 +472,14 @@
                         <img src="img/vanpiro.png" alt="Vanpiro Esiten">
                         <div class="overlay">
                             <div class="overlay-text">Vanpiro Esiten</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/ia.png" alt="Simulador del Mus">
+                        <div class="overlay">
+                            <div class="overlay-text">Gambito de Mus</div>
                         </div>
                     </div>
                     <!--ITEM END-->
@@ -687,79 +697,84 @@
         const videos = [
             {
                 videoId: 'TmE17QoRY9I',
-                description: 'facundoom <a href="https://estebenr.itch.io/facundoom" target="_blank" >Página del videojuego</a>',
+                description: 'FACUNDOOM is a retro‑style 3D shooter for PC and web browsers (WEBGL) developed during the ComJamOn 2023 Game Jam. Made in Unity. \n<a href="https://estebenr.itch.io/facundoom" target="_blank" >More info & download</a>',
                 hasVideo: true
             },
             {
                 videoId: 'Q-lTl9oYyZ0',
-                description: 'wizara <a href="https://jbopp.itch.io/wizara" target="_blank" >Página del videojuego</a>',
+                description: 'Wizara is an action platformer video game with action, platforming and puzzle elements. Made in Unity. \n<a href="https://jbopp.itch.io/wizara" target="_blank" >More info & download</a>',
                 hasVideo: true
             },
             {
                 videoId: 'VIDEO_ID_3',
-                description: 'mortis causa <a href="https://jbopp.itch.io/mortis-causa" target="_blank" >Página del videojuego</a>',
+                description: 'Mortis Causa is a narrative and investigation ”point & click” video game, developed using C++ and SDL2 library, with original music and visuals.\n <a href="https://jbopp.itch.io/mortis-causa" target="_blank" >More info & download</a>',
                 hasVideo: false
             },
             {
                 videoId: 'g4xTAS6ZbXA',
-                description: 'The Hallway <a href="https://jbopp.itch.io/the-hallway" target="_blank" >Página del videojuego</a>',
+                description: 'The Hallway is a first‑person horror game where players must escape from a procedurally generated maze. This videogame was created as a demonstration of the capabilities of our C++ engine, Quack Engine.\n <a href="https://jbopp.itch.io/the-hallway" target="_blank" >More info & download</a>',
                 hasVideo: true
             },
             {
                 videoId: 'vcR4KDBz7iw',
-                description: 'SIM',
+                description: 'BLAST V0ID is a demonstration of a custom particle and physics system made from scratch with C++ using OpenGL and Nvidia Physx libraries. <a href="https://github.com/jorgbell/SIM_22-23" target="_blank" >See on Github</a> and <a href="files/sim.pdf" download target="_blank">read the project report.</a>',
                 hasVideo: true
             },
             {
                 videoId: 'DX_cWMS5RqM',
-                description: 'SONIDO',
+                description: 'Project Disco is a prototype made in Unity with the integration of FMOD Studio of a possible zone in a larger video game. The player is located in a disco at night, and the ambience sounds depends in which zone is the player at the moment. <a href="files/son.pdf" download target="_blank">Read here the project report.</a>.',
                 hasVideo: true
             },
-            {
+            /*{
                 videoId: 'VIDEO_ID_3',
                 description: 'DISEÑO',
                 hasVideo: false
-            },
+            },*/
             {
                 videoId: 'sIJvq9uW2lU',
-                description: 'RA',
+                description: 'Wizara Collector\'s Tour is an AR app made with Unity for Android Devices where you can see a special gallery and behind the scenes information about Wizara.\n \n<a href="https://jbopp.itch.io/wizara" target="_blank" >More info & download</a>',
+                hasVideo: true
+            },
+            {
+                videoId: '4jjPbDyJX9s',
+                description: 'Unreal Engine 4 environment for a third-person video game.',
+                hasVideo: true
+            },
+            {
+                videoId: 'uaHS4pPNs0E',
+                description: 'VR environment prototype made in Unity in which player can visit two sides of a world, planned for resolving different puzzles.',
+                hasVideo: true
+            },
+            {
+                videoId: 'PPGr_DNBY04',
+                description: 'Duck Hunt clone made from scratch in C++, with a platform abstraction (pseudo-engine) that was implemented for PC and PS4. You can see the PC project that uses SDL2 API in my <a href="https://github.com/jorgbell/duckhuntclone" target="_blank" >Github repository.</a>',
                 hasVideo: true
             },
             {
                 videoId: 'VIDEO_ID_3',
-                description: 'UNREAL',
+                description: 'Game User Research and QA related study about the dificulty in the mechanichs and level design in Myrror, a game-jam platforming video game. We modified the Unity project of the game to add a telemetry system made from scratch, and then we did different user tests, taking also information from a questionnaire. Only in Spanish. <a href="files/myrror.pdf" download target="_blank">Read it now</a>',
+                hasVideo: false
+            },
+            {
+                videoId: 'VhqHTgTkzGA',
+                description: 'Prototype version of a classic Nonogram game clone, created with Java and Android Studio. It supports a platform abstraction, with the same game project that can be compiled for PC and Android. The version that is showed in the video is an advanced version of the game and Android engine that supports Google Ads, unlockable themes and different non-randomized levels.<a href="https://github.com/jorgbell/VDM_22-23/tree/main/Practicas" target="_blank" >Github repository</a> and <a href="https://github.com/jorgbell/VDM_22-23/releases/tag/Nonogramas" target="_blank" >apk download</a>  ',
+                hasVideo: true
+            },
+            {
+                videoId: 'VIDEO_ID_3',
+                description: 'Quack Engine is a 2D and 3D game engine, designed and developed from scratch in C++ using a a data‑oriented game engine following the Entity‑Component‑System design pattern, with support for data files (levels, options, etc.) in Lua. \nIntegration and abstraction of the following libraries: Ogre3D, CEGUI, FMOD, Bullet, and LuaBridge.\n <a href="https://github.com/El-limon-mecanico/Quack-Engine" target="_blank" >Github repository</a>',
                 hasVideo: false
             },
             {
                 videoId: 'VIDEO_ID_3',
-                description: 'VR',
+                description: 'Van Piro: Esiten is a small browser game in which you control a vampire that is slowly dying, and only can survive if kills the villagers and gets their blood. \nMade using Javascript and Phaser 2 API. <a href="https://dagodoy.github.io/estudioPangolin" target="_blank" >Play it</a>\n',
                 hasVideo: false
             },
             {
-                videoId: 'VIDEO_ID_3',
-                description: 'DUCK HUNT',
-                hasVideo: false
-            },
-            {
-                videoId: 'VIDEO_ID_3',
-                description: 'ANALISIS MYRROR',
-                hasVideo: false
-            },
-            {
-                videoId: 'VIDEO_ID_3',
-                description: 'NONOGRAMA',
-                hasVideo: false
-            },
-            {
-                videoId: 'VIDEO_ID_3',
-                description: 'QUACK ENGINE',
-                hasVideo: false
-            },
-            {
-                videoId: 'VIDEO_ID_3',
-                description: 'VANPIRO ESITEN',
-                hasVideo: false
-            },
+                videoId: 'S8-Kj2egbm8',
+                description: '"Gambito de Mus" is a prototype game made in Unity in which we developed an AI that plays the classic spanish card game called Mus. You can see the <a href="https://github.com/aitorgac/IAV21-G07/tree/main/_Proyecto" target="_blank" >project Github repository</a> and <a href="files/ia.pdf" download target="_blank">read the final report.</a>',
+                hasVideo: true
+            }
         ];
 
 
