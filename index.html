@@ -1,14 +1,825 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jbopp</title>
+    <meta charset="utf-8">
+    <title>jbopp / Jorge Bello - Porfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <h1>jbopp</h1>
-    <p>wip</p>
-    <p>wip</p>
-    <p>wip</p>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">jbopp</span> </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Education</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <!--<a href="#testimonial" class="nav-item nav-link">Review</a>-->
+                <!--<a href="#blog" class="nav-item nav-link">Blog</a>-->
+                <a href="#footer" class="nav-item nav-link">Contact</a>
+            </div>
+            <!--<a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>-->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+ <!--Video Modal Start-->
+<!-- <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>        -->
+                <!--16:9 aspect ratio-->
+                <!--<div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+ <!--Video Modal End-->
+   
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">¡Hola! I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Jorge Bello</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Game Developer, Gameplay and UI programmer, QA engeneering and testing, Level Design, Unity and C#, Unreal Engine, C++ Development, Android Development</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="files/CV.pdf" download class="btn btn-outline-light mr-5" target="_blank">Download CV</a>
+                        <!--<button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                            <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                        </button>-->
+                    </div>
+                    <div class=" align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/jorge-bello-martin/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-social mr-2" href="https://jbopp.itch.io" target="_blank"><i class="fab fa-itch-io"></i></a>
+                        <a class="btn btn-light btn-social mr-2" href="https://github.com/jorgbell/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-light btn-social mr-2" href="https://twitter.com/jbopp_" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                    <p class="col align-items-center">this is Speedy, my little fella </p>
+
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Video game developer</h3>
+                    <p>Hi there! I'm Jorge, I was born in Tenerife and now I'm an Spanish game developer located in Madrid. Playing video games has always been my passion, and now that has transformed into loving making them. You can see more about my projects here, but also in my social media accounts. </p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Jorge Bello</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">04 February 2000</span></h6></div>
+                        <!--<div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">10 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+012 345 6789</span></h6></div>-->
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">jbopp.dev@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Madrid, Spain</span></h6></div>
+                    </div>
+                    <!--<a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <!--DESCOMENTAR ESTO CUANDO AÑADA MAS COLUMNAS<div class="col-lg-6">-->
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <!--ITEMS-->
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Grado en Desarrollo de Videojuegos</h5>
+                            <p class="mb-2"><strong>Universidad Complutense de Madrid</strong> | <small>2018 - 2023</small></p>
+                            <p>Currently developing final degree project.<br> Completion expectation for September 2023.</p>
+                        </div>
+                    </div>
+                <!--DESCOMENTAR ESTO CUANDO AÑADA MAS COLUMNAS</div>-->
+                <!--<div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C++</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C#</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Java</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">OpenGL</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Unity</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Unreal Engine</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Version Control</h6>
+                            <h6 class="font-weight-bold"></h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-brands fa-2x fa-unity service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Unity and Unreal Development</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-solid fa-2x fa-gear service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">C++ and custom engines development</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-solid fa-2x fa-computer service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Gameplay and UI Programming</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-solid fa-2x fa-bug service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">QA Testing and engeneering</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-solid fa-2x fa-gamepad service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Game Design</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa-solid fa-2x fa-layer-group service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Multiplatform abstraction</h4>
+                    </div>
+                    <!--<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>-->
+                    <!--<a class="border-bottom border-primary text-decoration-none" href="">Read More</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Uni projects</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Prototypes/Demo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="gallery">
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item first">
+                        <img src="img/facundoom.png" alt="FacunDOOOM">
+                        <div class="overlay">
+                            <div class="overlay-text">FacunDOOM</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/wizara.png" alt="Wizara">
+                        <div class="overlay">
+                            <div class="overlay-text">Wizara</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/mortiscausa.png" alt="Mortis Causa">
+                        <div class="overlay">
+                            <div class="overlay-text">Mortis Causa</div>
+                        </div>
+                    </div>
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/hallway.png" alt="The Hallway">
+                        <div class="overlay">
+                            <div class="overlay-text">The Hallway</div>
+                        </div>
+                    </div>
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/SIM.png" alt="BLAST V0ID">
+                        <div class="overlay">
+                            <div class="overlay-text">BLAST V0ID</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/sonido.png" alt="Project Disco">
+                        <div class="overlay">
+                            <div class="overlay-text">Project Disco</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <!--<div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/diseno.png" alt="Imagen 1">
+                        <div class="overlay">
+                            <div class="overlay-text">DISEÑO</div>
+                        </div>
+                    </div>-->
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/RA.png" alt="Wizara Collector´s Tour">
+                        <div class="overlay">
+                            <div class="overlay-text">Wizara Collector´s Tour</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/unreal.png" alt="Unreal Engine environment">
+                        <div class="overlay">
+                            <div class="overlay-text">Unreal Engine 4 environment</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/vr.png" alt="SteamVR environment">
+                        <div class="overlay">
+                            <div class="overlay-text">SteamVR Environment on Unity</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/duckhunt.png" alt="Duck Hunt">
+                        <div class="overlay">
+                            <div class="overlay-text">Duck Hunt clone</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/myrror.png" alt="Imagen 1">
+                        <div class="overlay">
+                            <div class="overlay-text">analisis myrror</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/nonograma.png" alt="Nonogramas">
+                        <div class="overlay">
+                            <div class="overlay-text">Nonogramas</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/quack.png" alt="Quack Engine">
+                        <div class="overlay">
+                            <div class="overlay-text">Quack Engine</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item second">
+                        <img src="img/vanpiro.png" alt="Vanpiro Esiten">
+                        <div class="overlay">
+                            <div class="overlay-text">Vanpiro Esiten</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                    <!--ITEM START-->
+                    <div class="gallery-item col-lg-4 col-md-6 mb-4 portfolio-item third">
+                        <img src="img/ia.png" alt="Simulador del Mus">
+                        <div class="overlay">
+                            <div class="overlay-text">Gambito de Mus</div>
+                        </div>
+                    </div>
+                    <!--ITEM END-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="video-container">
+                <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-description">
+                <p id="video-description-text"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+    
+
+
+    <!-- Testimonial Start -->
+    <!--<div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <!--<div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <!--<div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">/////////</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5" id="footer">
+        <div class="container text-center py-5">
+            
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="mailto:jbopp.dev@gmail.com" target="_blank"> Contact me at: jbopp.dev@gmail.com</a>
+                <!--<a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>-->
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Jorge Bello Martín</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
+            <div class=" align-items-center justify-content-center justify-content-lg-start pt-5">
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/jorge-bello-martin/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://jbopp.itch.io" target="_blank"><i class="fab fa-itch-io"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/jorgbell/" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://twitter.com/jbopp_" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!--Portfolio scripts-->
+    <script>
+        const overlayElements = document.querySelectorAll('.overlay');
+        const modal = document.querySelector('.modal');
+        const modalContent = document.querySelector('.modal-content');
+        const closeButton = document.querySelector('.close-button');
+        const videoContainer = document.querySelector('.video-container');
+        const videoDescriptionText = document.querySelector('#video-description-text');
+
+        
+        const videos = [
+            {
+                videoId: 'TmE17QoRY9I',
+                description: 'FACUNDOOM is a retro‑style 3D shooter for PC and web browsers (WEBGL) developed during the ComJamOn 2023 Game Jam. Made in Unity. \n<a href="https://estebenr.itch.io/facundoom" target="_blank" >More info & download</a>',
+                hasVideo: true
+            },
+            {
+                videoId: 'Q-lTl9oYyZ0',
+                description: 'Wizara is an action platformer video game with action, platforming and puzzle elements. Made in Unity. \n<a href="https://jbopp.itch.io/wizara" target="_blank" >More info & download</a>',
+                hasVideo: true
+            },
+            {
+                videoId: 'VIDEO_ID_3',
+                description: 'Mortis Causa is a narrative and investigation ”point & click” video game, developed using C++ and SDL2 library, with original music and visuals.\n <a href="https://jbopp.itch.io/mortis-causa" target="_blank" >More info & download</a>',
+                hasVideo: false
+            },
+            {
+                videoId: 'g4xTAS6ZbXA',
+                description: 'The Hallway is a first‑person horror game where players must escape from a procedurally generated maze. This videogame was created as a demonstration of the capabilities of our C++ engine, Quack Engine.\n <a href="https://jbopp.itch.io/the-hallway" target="_blank" >More info & download</a>',
+                hasVideo: true
+            },
+            {
+                videoId: 'vcR4KDBz7iw',
+                description: 'BLAST V0ID is a demonstration of a custom particle and physics system made from scratch with C++ using OpenGL and Nvidia Physx libraries. <a href="https://github.com/jorgbell/SIM_22-23" target="_blank" >See on Github</a> and <a href="files/sim.pdf" download target="_blank">read the project report.</a>',
+                hasVideo: true
+            },
+            {
+                videoId: 'DX_cWMS5RqM',
+                description: 'Project Disco is a prototype made in Unity with the integration of FMOD Studio of a possible zone in a larger video game. The player is located in a disco at night, and the ambience sounds depends in which zone is the player at the moment. <a href="files/son.pdf" download target="_blank">Read here the project report.</a>.',
+                hasVideo: true
+            },
+            /*{
+                videoId: 'VIDEO_ID_3',
+                description: 'DISEÑO',
+                hasVideo: false
+            },*/
+            {
+                videoId: 'sIJvq9uW2lU',
+                description: 'Wizara Collector\'s Tour is an AR app made with Unity for Android Devices where you can see a special gallery and behind the scenes information about Wizara.\n \n<a href="https://jbopp.itch.io/wizara" target="_blank" >More info & download</a>',
+                hasVideo: true
+            },
+            {
+                videoId: '4jjPbDyJX9s',
+                description: 'Unreal Engine 4 environment for a third-person video game.',
+                hasVideo: true
+            },
+            {
+                videoId: 'uaHS4pPNs0E',
+                description: 'VR environment prototype made in Unity in which player can visit two sides of a world, planned for resolving different puzzles.',
+                hasVideo: true
+            },
+            {
+                videoId: 'PPGr_DNBY04',
+                description: 'Duck Hunt clone made from scratch in C++, with a platform abstraction (pseudo-engine) that was implemented for PC and PS4. You can see the PC project that uses SDL2 API in my <a href="https://github.com/jorgbell/duckhuntclone" target="_blank" >Github repository.</a>',
+                hasVideo: true
+            },
+            {
+                videoId: 'VIDEO_ID_3',
+                description: 'Game User Research and QA related study about the dificulty in the mechanichs and level design in Myrror, a game-jam platforming video game. We modified the Unity project of the game to add a telemetry system made from scratch, and then we did different user tests, taking also information from a questionnaire. Only in Spanish. <a href="files/myrror.pdf" download target="_blank">Read it now</a>',
+                hasVideo: false
+            },
+            {
+                videoId: 'VhqHTgTkzGA',
+                description: 'Prototype version of a classic Nonogram game clone, created with Java and Android Studio. It supports a platform abstraction, with the same game project that can be compiled for PC and Android. The version that is showed in the video is an advanced version of the game and Android engine that supports Google Ads, unlockable themes and different non-randomized levels.<a href="https://github.com/jorgbell/VDM_22-23/tree/main/Practicas" target="_blank" >Github repository</a> and <a href="https://github.com/jorgbell/VDM_22-23/releases/tag/Nonogramas" target="_blank" >apk download</a>  ',
+                hasVideo: true
+            },
+            {
+                videoId: 'VIDEO_ID_3',
+                description: 'Quack Engine is a 2D and 3D game engine, designed and developed from scratch in C++ using a a data‑oriented game engine following the Entity‑Component‑System design pattern, with support for data files (levels, options, etc.) in Lua. \nIntegration and abstraction of the following libraries: Ogre3D, CEGUI, FMOD, Bullet, and LuaBridge.\n <a href="https://github.com/El-limon-mecanico/Quack-Engine" target="_blank" >Github repository</a>',
+                hasVideo: false
+            },
+            {
+                videoId: 'VIDEO_ID_3',
+                description: 'Van Piro: Esiten is a small browser game in which you control a vampire that is slowly dying, and only can survive if kills the villagers and gets their blood. \nMade using Javascript and Phaser 2 API. <a href="https://dagodoy.github.io/estudioPangolin" target="_blank" >Play it</a>\n',
+                hasVideo: false
+            },
+            {
+                videoId: 'S8-Kj2egbm8',
+                description: '"Gambito de Mus" is a prototype game made in Unity in which we developed an AI that plays the classic spanish card game called Mus. You can see the <a href="https://github.com/aitorgac/IAV21-G07/tree/main/_Proyecto" target="_blank" >project Github repository</a> and <a href="files/ia.pdf" download target="_blank">read the final report.</a>',
+                hasVideo: true
+            }
+        ];
+
+
+        overlayElements.forEach((element, index) => {
+            element.addEventListener('click', () => {
+                const video = videos[index];
+                const { videoId, description, hasVideo } = video;
+
+                if (hasVideo && videoId) {
+                    const iframeSrc = `https://www.youtube.com/embed/${videoId}`;
+                    videoContainer.innerHTML = `<iframe src="${iframeSrc}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                    videoContainer.style.display = 'block';
+                } else {
+                    videoContainer.innerHTML = '';
+                    videoContainer.style.display = 'none';
+                }
+
+                videoDescriptionText.innerHTML = description;
+
+                modal.style.display = 'flex';
+            });
+        });
+
+        closeButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+            videoContainer.innerHTML = '';
+
+            const iframe = videoContainer.querySelector('iframe');
+            if (iframe) {
+                iframe.src = '';
+            }
+        });
+        // Mostrar y ocultar el texto descriptivo al pasar el ratón por encima de la imagen
+        const galleryItems = document.querySelectorAll('.gallery-item');
+                galleryItems.forEach(item => {
+                    const overlay = item.querySelector('.overlay');
+                    item.addEventListener('mouseenter', () => {
+                        overlay.style.opacity = 1;
+                    });
+                    item.addEventListener('mouseleave', () => {
+                        overlay.style.opacity = 0;
+                    });
+                });
+    </script>
+
 </body>
+
 </html>
