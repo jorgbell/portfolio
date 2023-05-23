@@ -62,7 +62,9 @@ html {
   width: 100%;
   height: auto;
 }
-
+.texto {
+  display: none;
+}
 .overlay {
   position: absolute;
   top: 0;
